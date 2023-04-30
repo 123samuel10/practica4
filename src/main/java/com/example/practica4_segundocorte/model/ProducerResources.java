@@ -22,8 +22,7 @@ import java.util.logging.Logger;
 public class ProducerResources {
     @Inject
     private Logger log;
-    //@Resource(name="jdbc/mysqlDB")
-    @Resource(name="practicadb")
+    @Resource(name="jdbc/mysqlDB")
     private DataSource ds;
 
     private static String url = "jdbc:mysql://localhost:3306/practicadb";
